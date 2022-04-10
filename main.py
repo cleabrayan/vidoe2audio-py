@@ -10,6 +10,6 @@ for VideoName in os.listdir():
         VideoName=VideoName.strip(".mp4")
         audio.write_audiofile(f"mp3/{VideoName}.mp3")
         print(f"\033[36;1m {VideoName} Ready \033[36;0m")
-print(f"\033[32;1m Done .. . . . . . . . . . . .  {-_-} ! ")
+print(f"\033[32;1m Done .. ..  {-_-}  . . . . . . . . . .  {-_-} ! ")
 
 
